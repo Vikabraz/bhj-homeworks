@@ -1,7 +1,6 @@
 let dead = document.getElementById("dead");
 let lost = document.getElementById("lost");
 
-
 let end = (text) => {
   setTimeout(() => {
   alert(text);
@@ -9,7 +8,6 @@ let end = (text) => {
   lost.textContent = 0;
 },20);
 }
-
 
 document.querySelectorAll(".hole").forEach((hole) =>
   hole.addEventListener("click", function () {
