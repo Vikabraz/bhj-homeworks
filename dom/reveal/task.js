@@ -9,4 +9,4 @@ function Visible(reveals) {
     }
   });
 }
-window.addEventListener("scroll", Visible(reveals));
+window.addEventListener("scroll", () => Visible(reveals));
